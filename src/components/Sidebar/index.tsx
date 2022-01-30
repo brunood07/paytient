@@ -1,18 +1,14 @@
-import Image from "next/image";
 import { FiTarget } from "react-icons/fi";
 import { BsCart3 } from "react-icons/bs";
 import { HiOutlineUser, HiOutlineCog, HiOutlineBriefcase } from "react-icons/hi";
 import { IoNewspaperOutline, IoExitOutline } from "react-icons/io5";
 import { VscGraph } from "react-icons/vsc";
 
-import Logo from "../../assets/logo.png";
 import { SidebarContainer } from "./styles";
 
 export function Sidebar() {
   return (
     <SidebarContainer>
-      <Image src={Logo} alt="logo" />
-
       <nav>
         <ul>
           <li style={{ color: "var(--green)" }}>

@@ -4,17 +4,10 @@ export const SidebarContainer = styled.aside`
   display: flex;
   flex-direction: column;
   background: #fff;
-  max-width: 223px;
-  height: 825px;
+  width: 15rem;
+  height: 42rem;
   box-shadow: 20px 25px 40px 0 rgba(35, 38, 90, 0.06);
-
-  img {
-    width: 125px;
-    height: 51px;
-    margin-right: 51px;
-    margin-left: 42px;
-    margin-top: 12px;
-  }
+  font-family: "Inter", sans-serif;
 
   a { 
     text-decoration: none;
@@ -25,21 +18,21 @@ export const SidebarContainer = styled.aside`
     flex: 1;
     flex-direction: column;
     justify-content: space-between;
+    margin-top: 1rem;
     
     transition: filter 0.3s;
 
     ul {
-      margin-top: 24px;
-      margin-left: 32px;
+      margin-left: 1.25rem;
       
       li {
         display: flex;
         align-items: center;
         
         list-style: none;
-        font-size: 14px;
+        font-size: 0.875rem;
         font-weight: 600;
-        margin-top: 22px;
+        margin-top: 1.8rem;
         
         opacity: 0.25;
         
@@ -52,14 +45,14 @@ export const SidebarContainer = styled.aside`
         }
 
         &:last-child {
-          margin-top: 230px;
+          margin-top: 17rem;
         }
         
         svg {
-          width: 16px;
-          height: 16px;
+          width: 1rem;
+          height: 1rem;
           
-          margin-right: 20px;
+          margin-right: 1.25rem;
         }
       }
     }
