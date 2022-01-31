@@ -7,7 +7,7 @@ export const HeaderContainer = styled.header`
   height: 4rem;
   width: 100%;
 
-  background: #fff;
+  background: var(--white);
   box-shadow: 20px 25px 40px 0 rgba(35, 38, 90, 0.06);
 
   .img {

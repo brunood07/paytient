@@ -26,7 +26,7 @@ export const HeadContainer = styled.div`
   }
 
   button {
-    background-color: #FFFFFF;
+    background-color: var(--white);
     border-radius: 15px;
     border: 0;
     box-shadow: 10px 15px 30px 0 rgba(35, 38, 90, 0.06);
