@@ -11,6 +11,7 @@ export const SidebarContainer = styled.aside`
 
   a { 
     text-decoration: none;
+    color: var(--text);
   }
 
   nav {

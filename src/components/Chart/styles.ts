@@ -8,7 +8,7 @@ export const ChartContainer = styled.div`
   box-shadow: 20px 25px 40px 0 rgba(35, 38, 90, 0.06);
   width: 1100px;
   height: 280px;
-  margin-left: 1.25rem;
+  margin-left: 1.5rem;
   margin-top: 1.7rem;
 
   .header {
