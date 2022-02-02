@@ -59,6 +59,11 @@ export const Container = styled.div`
   width: 100%;
   margin-top: -16.5rem;
 
+  @media (max-width: 720px) {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+  }
+
   .cardContainer {
     width: 18rem;
     height: 14rem;

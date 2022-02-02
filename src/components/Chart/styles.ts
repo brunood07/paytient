@@ -11,6 +11,10 @@ export const ChartContainer = styled.div`
   margin-left: 1.5rem;
   margin-top: 1.7rem;
 
+  @media (max-width: 720px) {
+    display: none;
+  }
+
   .header {
     display: flex;
     align-items: center;
